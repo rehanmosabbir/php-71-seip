@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/seipPhp71.iml" filepath="$PROJECT_DIR$/.idea/seipPhp71.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/php-71-seip.iml" filepath="$PROJECT_DIR$/.idea/php-71-seip.iml" />
     </modules>
   </component>
 </project>
