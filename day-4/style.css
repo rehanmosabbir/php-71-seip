@@ -48,7 +48,7 @@
     border: 1px solid #000;
 }
 
-.row {
+.row:after {
     content: ' ';
     clear: both;
     display: block;
@@ -61,7 +61,7 @@
 }
 
 .header-top-height { height: 50px; }
-.header-height { height: 300px; }
+.header-height { height: 200px; }
 .menu-height { height: 50px; }
 .content-height { height: 600px; }
 .big-footer-height { height: 300px; }
