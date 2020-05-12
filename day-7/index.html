@@ -103,6 +103,48 @@
                 </div>
             </div>
         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <label for="firstName" class="col-form-label">First Name</label>
+                            <input type="text" id="firstName" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName" class="col-form-label">Last Name</label>
+                            <input type="text" id="lastName" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-form-label">Email Address</label>
+                            <input type="email" id="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="col-form-label">Password</label>
+                            <input type="password" id="password" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="phoneNumber" class="col-form-label">Phone Number</label>
+                            <input type="tel" id="phoneNumber" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="address" class="col-form-label">Address</label>
+                            <textarea id="address" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" id="male" type="radio" name="gender" value="male">
+                            <label class="form-check-label" for="male">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" id="female" type="radio" name="gender" value="female">
+                            <label class="form-check-label" for="female">Female</label>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
 
 
 
@@ -113,5 +155,7 @@
         <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
         <script src="js/bootstrap.bundle.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+        <script>tinymce.init({selector:'textarea'});</script>
     </body>
 </html>

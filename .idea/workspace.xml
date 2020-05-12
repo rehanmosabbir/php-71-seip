@@ -20,16 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab2f287a-a917-44f7-860b-0f00a78fec10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day-7/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-7/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-7/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-7/images/slider-image-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-7/images/slider-image-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-7/images/slider-image-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-7/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-7/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-7/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-7/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/day-7/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day-7/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +71,7 @@
       <updated>1588707238197</updated>
       <workItem from="1588707246603" duration="18115000" />
       <workItem from="1588779683225" duration="13270000" />
+      <workItem from="1589283769669" duration="2125000" />
     </task>
     <servers />
   </component>
