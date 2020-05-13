@@ -1,0 +1,9 @@
+.carousel-item-padding {
+    padding: 100px 250px;
+    color: #fff;
+}
+
+.add-section {
+    background-size: cover;
+    background: url("../images/bg.jpg") fixed center;
+}
