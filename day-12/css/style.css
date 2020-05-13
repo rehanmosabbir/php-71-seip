@@ -1,0 +1,23 @@
+.my-style {
+    height: 500px;
+    border: 1px solid red;
+}
+
+.class-one {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: red;
+}
+.class-two {
+    height: 100px;
+    width: 200px;
+    border-radius: 0 0 100px 100px;
+    background-color: green;
+}
+.class-three {
+    height: 100px;
+    width: 200px;
+    border-radius: 100px 100px 0 0;
+    background-color: yellow;
+}

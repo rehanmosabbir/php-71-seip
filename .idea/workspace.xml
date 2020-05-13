@@ -20,17 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab2f287a-a917-44f7-860b-0f00a78fec10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day-11/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-11/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-11/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-11/images/slider-image-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-11/images/slider-image-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-11/images/slider-image-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-11/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-11/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-11/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-12/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-12/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-12/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-12/images/slider-image-one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-12/images/slider-image-three.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-12/images/slider-image-two.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-12/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-12/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-12/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-12/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-13/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-13/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-13/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-13/images/slider-image-one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-13/images/slider-image-three.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-13/images/slider-image-two.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-13/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-13/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-13/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-13/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-11/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/day-11/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +54,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,11 +76,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/day-11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day-13" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\php-71-seip\day-13" />
+      <recent name="D:\php-71-seip\day-12" />
       <recent name="D:\php-71-seip\day-11" />
       <recent name="D:\php-71-seip\day-9" />
       <recent name="D:\php-71-seip\day-8" />
@@ -91,7 +103,9 @@
       <workItem from="1589283769669" duration="2248000" />
       <workItem from="1589290556884" duration="4610000" />
       <workItem from="1589300807107" duration="23826000" />
-      <workItem from="1589364996295" duration="4067000" />
+      <workItem from="1589364996295" duration="6137000" />
+      <workItem from="1589385086667" duration="2321000" />
+      <workItem from="1589402647014" duration="2312000" />
     </task>
     <servers />
   </component>
