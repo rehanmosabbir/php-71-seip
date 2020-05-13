@@ -3,8 +3,86 @@
     <head>
         <meta charset="UTF-8">
         <title>HOME</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6  m-auto">
+                    <div class="card">
+                        <div class="card-body">
+<!--                            <form action="" method="post">-->
+                                <div class="form-group row">
+                                    <label for="firstName" class="col-form-label col-sm-3">First Name</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" name="first_name" id="firstName" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="lastName" class="col-form-label col-sm-3">Last Name</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" name="last_name" id="lastName" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="fullName" class="col-form-label col-sm-3">Full Name</label>
+                                    <div class="col-sm-9">
+                                        <input type="text" name="full_name" id="fullName" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="firstName" class="col-form-label col-sm-3"></label>
+                                    <div class="col-sm-9">
+                                        <input type="submit" name="btn" id="btn" class="btn btn-success" value="sumbit">
+                                    </div>
+                                </div>
+<!--                            </form>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-6  m-auto">
+                    <div class="card">
+                        <div class="card-body">
+                            <!--                            <form action="" method="post">-->
+                            <div class="form-group row">
+                                <label for="firstNumber" class="col-form-label col-sm-3">First Number</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="first_number" id="firstNumber" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="lastNumber" class="col-form-label col-sm-3">Last Number</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="last_number" id="lastNumber" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="result" class="col-form-label col-sm-3">Result</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="result" id="result" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="firstName" class="col-form-label col-sm-3"></label>
+                                <div class="col-sm-9">
+                                    <input type="submit" name="btn" id="addition" class="btn btn-success" value="+">
+                                    <input type="submit" name="btn" id="subtraction" class="btn btn-success" value="-">
+                                    <input type="submit" name="btn" id="multiplication" class="btn btn-success" value="*">
+                                    <input type="submit" name="btn" id="division" class="btn btn-success" value="/">
+                                    <input type="submit" name="btn" id="remainder" class="btn btn-success" value="%">
+                                </div>
+                            </div>
+                            <!--                            </form>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 <!--        <p>Hello Rehan</p>-->
 <!--        <p>Hello Rokti</p>-->
@@ -13,55 +91,11 @@
 <!--        <p>Hello Rifat</p>-->
 
 
-    <script>
-        // var x;
-        // x = 10;
-        // document.write(x);
 
-        // var a = new Array();
-        // var b = Array();
 
-        // var data = [];
-        // data[0] = 10;
-        // data[1] = 20;
-        // data[2] = 30;
-        //
-        // data['name'] = 'Mosabbir';
-        // data['age'] = 31;
-        // data['country'] = 'Bangladesh';
-        // data['city'] = 'Dhaka';
-
-        // document.write(data[1]);
-        // document.write('<br>');
-        // document.write(data['age']);
-        // document.write('<br>');
-        // document.write(data['country']);
-
-        // for (var key in data) {
-        //     document.write(data[key]);
-        //     document.write('<br>');
-        // }
-        //
-        // document.write(typeof (data));
-        // document.write('<br>');
-        // document.write(data.length - 1);
-
-        // var paragraphElement = document.getElementsByTagName('p');
-        // for (var key in paragraphElement) {
-        //     document.write(paragraphElement[key].innerHTML+ '<br>');
-        // }
-
-        // for(var i = 0;i < paragraphElement.length;i++){
-        //     document.write(paragraphElement[i].innerHTML+ '<br>');
-        // }
-
-        function demo(firstname,lastname) {
-            var fullname = firstname + ' ' + lastname;
-            document.write(fullname);
-        }
-
-        demo('Mosaabbir','Rehan');
-
-    </script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
