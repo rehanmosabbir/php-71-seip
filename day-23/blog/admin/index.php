@@ -25,7 +25,7 @@
 <body>
     <div class="container" style="margin-top: 200px;">
         <div class="row">
-            <div class="col-md-6 mx-auto">
+            <div class="col-sm-6 mx-auto">
                 <div class="card">
                     <div class="card-title">
                         <p align="center" class="h4 mt-2">Admin Panel</p>
@@ -47,7 +47,8 @@
                             </div>
 
                             <div class="form-group row">
-                                <div class="col-sm-12">
+                                <div class="col-sm-3"></div>
+                                <div class="col-sm-9">
                                     <button type="submit" class="btn btn-success btn-block" name="btn">Sign in</button>
                                 </div>
                             </div>
