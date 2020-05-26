@@ -20,13 +20,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab2f287a-a917-44f7-860b-0f00a78fec10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day-23/blog/admin/add-blog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-23/blog/admin/add-category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-23/blog/admin/includes/menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day-23/blog/admin/manage-category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-23/blog/admin/edit-category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-23/blog/app/classes/Blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-23/blog/app/classes/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/admin/add-blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/admin/add-category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/admin/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/admin/edit-category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/admin/includes/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/admin/manage-category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/app/classes/Blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/app/classes/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/app/classes/Database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/app/classes/Login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/css/heroic-features.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/assets/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/bitm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/blog/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day-24/file-upload/file-upload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-23/blog/admin/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-23/blog/admin/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day-23/blog/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-23/blog/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-23/blog/admin/add-blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-23/blog/admin/add-blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-23/blog/admin/add-category.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-23/blog/admin/add-category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-23/blog/admin/manage-category.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-23/blog/admin/manage-category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day-23/blog/app/classes/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/day-23/blog/app/classes/Login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +162,9 @@
       <workItem from="1590099678875" duration="8194000" />
       <workItem from="1590126151152" duration="8498000" />
       <workItem from="1590141599077" duration="6900000" />
-      <workItem from="1590283977855" duration="4453000" />
+      <workItem from="1590283977855" duration="4821000" />
+      <workItem from="1590470282155" duration="9345000" />
+      <workItem from="1590507237647" duration="2474000" />
     </task>
     <servers />
   </component>
@@ -148,14 +195,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="462" y="110" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1589312613400" />
-    <state x="493" y="91" key="NewPhpClassDialog" timestamp="1590144188554">
+    <state x="493" y="91" key="NewPhpClassDialog" timestamp="1590508338054">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="493" y="91" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1590144188554" />
-    <state x="518" y="292" key="NewPhpFileDialog" timestamp="1590288176787">
+    <state x="493" y="91" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1590508338054" />
+    <state x="518" y="292" key="NewPhpFileDialog" timestamp="1590509811724">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="518" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1590288176787" />
+    <state x="518" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1590509811724" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1590284586114">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

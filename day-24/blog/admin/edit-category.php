@@ -6,16 +6,24 @@ if($_SESSION['id'] == null){
 require_once '../vendor/autoload.php';
 $login = new App\classes\Login();
 
-$blog = new App\classes\Blog();
-$message = '';
-if(isset($_POST['btn'])){
-    $message = $blog->saveBlogInfo($_POST);
-}
-
+$category = new App\classes\Category();
 
 if(isset($_GET['logout'])){
     $login->adminLogout();
 }
+
+$id = $_GET['id'];
+$queryResult = $category->getCategoryInfoByID($id);
+$categoryByID = mysqli_fetch_assoc($queryResult);
+
+$message = '';
+if (isset($_POST['btn'])){
+    $message = $category->updateCategoryInfo($_POST);
+}
+
+
+//echo '<pre>';
+//print_r($categoryByID);
 
 
 ?>
@@ -38,40 +46,20 @@ if(isset($_GET['logout'])){
         <div class="col-sm-8 mx-auto">
             <div class="card">
                 <h1 class="h4 text-success mx-auto"><?php echo $message;?></h1>
+
                 <div class="card-body">
                     <form action="" method="post">
                         <div class="form-group row">
                             <label for="inputEmail3" class="col-sm-3 col-form-label">Category Name</label>
                             <div class="col-sm-9">
-                                <select name="category_name" id="" class="form-control">
-                                    <option value="">---Select Category Name---</option>
-                                    <option value="1">Category One</option>
-                                    <option value="2">Category Two</option>
-                                </select>
+                                <input type="text" class="form-control" id="inputEmail3" name="category_name" value="<?php echo $categoryByID['category_name'];?>">
+                                <input type="hidden" class="form-control" id="inputEmail3" name="id" value="<?php echo $categoryByID['id'];?>">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-3 col-form-label">Blog Title</label>
+                            <label for="inputPassword3" class="col-sm-3 col-form-label">Category Description</label>
                             <div class="col-sm-9">
-                                <input type="text" name="blog_title" class="form-control">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-3 col-form-label">Short Description</label>
-                            <div class="col-sm-9">
-                                <textarea name="short_description" class="form-control" id="" cols="30" rows="2"></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-3 col-form-label">Long Description</label>
-                            <div class="col-sm-9">
-                                <textarea name="long_description" class="form-control" id="" cols="30" rows="10"></textarea>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="inputPassword3" class="col-sm-3 col-form-label">Blog Image</label>
-                            <div class="col-sm-9">
-                                <input type="file" name="blog_image" accept="image/*">
+                                <textarea name="category_description" class="form-control" id="" cols="30" rows="10"><?php echo $categoryByID['category_description'];?></textarea>
                             </div>
                         </div>
                         <div class="form-group row">
@@ -85,7 +73,7 @@ if(isset($_GET['logout'])){
                         <div class="form-group row">
                             <div class="col-sm-3"></div>
                             <div class="col-sm-9">
-                                <button type="submit" class="btn btn-success btn-block" name="btn">Save Blog Info</button>
+                                <button type="submit" class="btn btn-success btn-block" name="btn">Update Category Info</button>
                             </div>
                         </div>
                     </form>
